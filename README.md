@@ -1,22 +1,19 @@
-# Inventory Management System Project
+# Inventory Management System
 
-This project is an enhanced Inventory Management System developed within the curriculum scope constraints, focusing on variable data types, conditionals, loops, classes, objects, database operations, and interactive challenges.
+## Description
 
-### Features:
+The Inventory Management System is a application developed in Python that allows users to manage an inventory of products. It provides functionalities to add, view, update, and delete products stored in a MySQL database.
 
-#### Functionality:
-- Manage product inventory with variables, lists, and dictionaries, including CRUD operations and interactive challenges for sorting and searching functionalities.
-- Develop user authentication using basic conditionals and exception handling, and implement data analysis and reporting features based on stored data.
+## Features
 
-#### Database Management:
-- Set up MySQL using basic operations (DDL, DML, DQL) for storing product information and managing product categories within the inventory system.
+- **Add Product**: Add new products to the inventory with details such as name, supplier ID, unit, price, and quantity.
+- **View Inventory**: Display all products in the inventory with their details.
+- **Update Product**: Modify the quantity and/or price of existing products.
+- **Delete Product**: Remove products from the inventory based on their unique ID.
+- **Database Integration**: Connects to a MySQL database for persistent data storage.
 
-### Optional Challenges:
-- Implement cost analysis functions, performance optimization, custom reporting features, and interactive inventory challenges within the curriculum scope.
+## Requirements
 
-### How to Run:
-1. Clone this repository.
-2. Set up a local MySQL server and configure the database connection in the code.
-3. Run `python main.py` to start the Enhanced Inventory Management System.
-
-Customize and enhance the features within the curriculum boundaries for an enriching hands-on learning experience in database management and inventory control!
+- Python 3.x
+- MySQL Server
+- "mysql-connector-python" package
