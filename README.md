@@ -2,7 +2,7 @@
 
 ## Description
 
-The Inventory Management System is a application developed in Python that allows users to manage an inventory of products. It provides functionalities to add, view, update, and delete products stored in a MySQL database.
+The Inventory Management System is an application developed in Python that allows users to manage an inventory of products. It provides functionalities to add, view, update, and delete products stored in a MySQL database.
 
 ## Features
 
